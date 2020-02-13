@@ -13,4 +13,8 @@ brew install koi
 Coming soon 😘
 
 ### Thoth
-Coming soon 😘
+Repository: https://github.com/wcarhart/thoth
+```
+brew tap wcarhart/tools
+brew install thoth
+```
