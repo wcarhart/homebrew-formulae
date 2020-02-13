@@ -5,15 +5,10 @@ class Thoth < Formula
 	desc "Helpful English diction tools for the command line"
 	homepage "https://github.com/wcarhart/thoth"
 	url "https://github.com/wcarhart/thoth/archive/1.tar.gz"
-	sha256 "a4bef13b290d65cd1f34c7492ee33aefb2af0332134b84d9df062da137c8cc1e"
+	sha256 "a0df46a945c5046ba57408532c221a11fc039f67298ab175d240ea564ca6541f"
 
 	def install
 		bin.install "thoth"
-		# bin.install "dict/"
 		etc.install Dir["dict/"]
-		# puts "#{bin}/dict/"
-		# puts "#{HOMEBREW_PREFIX}/bin/dict/"
-		# mkdir_p "#{HOMEBREW_PREFIX}/bin/dict/"
-		# ln_sf "#{bin}/dict/", "#{HOMEBREW_PREFIX}/bin/dict/"
 	end
 end
