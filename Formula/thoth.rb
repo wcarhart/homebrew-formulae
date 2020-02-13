@@ -10,6 +10,7 @@ class Thoth < Formula
 	def install
 		bin.install "thoth"
 		bin.install "dict/"
+		mkdir_p "#{bin}/dict/"
 		ln_sf "#{bin}/dict/", "#{HOMEBREW_PREFIX}/bin/dict/"
 	end
 end
