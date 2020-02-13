@@ -1,4 +1,5 @@
 require 'formula'
+require 'fileutils'
 
 class Thoth < Formula
 	desc "Helpful English diction tools for the command line"
@@ -8,6 +9,7 @@ class Thoth < Formula
 
 	def install
 		bin.install "thoth"
-		bin.install Dir["dict/"]
+		# bin.install Dir["dict/"]
+		ln_s "dict/" "#{HOMEBREW_PREFIX}/dict/"
 	end
 end
