@@ -4,7 +4,6 @@ This tap manages [wcarhart's](https://github.com/wcarhart) tools that are instal
 ## Available Formulae
 ### Koi
 Repository: https://github.com/wcarhart/koi
-Install:
 ```
 brew tap wcarhart/tools
 brew install koi
