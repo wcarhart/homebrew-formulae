@@ -10,5 +10,6 @@ class Thoth < Formula
 	def install
 		bin.install "thoth"
 		etc.install Dir["dict/"]
+		File.delete('/usr/local/etc/.thothdict') if File.exists? '/usr/local/etc/.thothdict'
 	end
 end
