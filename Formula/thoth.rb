@@ -12,7 +12,7 @@ class Thoth < Formula
 		bin.install "dict/"
 		puts "#{bin}/dict/"
 		puts "#{HOMEBREW_PREFIX}/bin/dict/"
-		# mkdir_p "#{bin}/dict/"
+		mkdir_p "#{HOMEBREW_PREFIX}/bin/dict/"
 		ln_sf "#{bin}/dict/", "#{HOMEBREW_PREFIX}/bin/dict/"
 	end
 end
