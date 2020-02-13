@@ -9,8 +9,8 @@ class Thoth < Formula
 
 	def install
 		bin.install "thoth"
-		bin.install "dict/"
-		etc.install "dict/"
+		# bin.install "dict/"
+		etc.install Dir["dict/"]
 		# puts "#{bin}/dict/"
 		# puts "#{HOMEBREW_PREFIX}/bin/dict/"
 		# mkdir_p "#{HOMEBREW_PREFIX}/bin/dict/"
