@@ -8,6 +8,6 @@ class Thoth < Formula
 
 	def install
 		bin.install "thoth"
-		bin.install "dict/"
+		bin.install Dir["dict/"]
 	end
 end
