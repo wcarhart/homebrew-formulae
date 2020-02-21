@@ -18,3 +18,12 @@ Repository: https://github.com/wcarhart/thoth
 brew tap wcarhart/tools
 brew install thoth
 ```
+
+## Chiller
+Helpful utilities for Homebrew
+
+`chiller gensha`<br>Generate a new SHA256 hash from a tarball for a new Homebrew release.
+
+`chiller gettar`<br>Get the tarball for a specific release of a GitHub repository.
+
+Why is it named [Chiller](https://en.wikipedia.org/wiki/Immersion_chiller)?

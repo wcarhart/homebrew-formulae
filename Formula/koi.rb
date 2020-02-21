@@ -3,8 +3,8 @@ require "formula"
 class Koi < Formula
 	desc "Bashful argument parsing"
 	homepage "https://github.com/wcarhart/koi"
-	url "https://github.com/wcarhart/koi/archive/v2.tar.gz"
-	sha256 "f1e70f403c24beb3bb6e951e8e5d442c228b68769bca24e12a9382c74987bbb1"
+	url "https://github.com/wcarhart/koi/archive/v3.tar.gz"
+	sha256 "d53e25045cd340dc2390be8d48d08ff3a52959caaaa26c0302a2cf9166ae6fef"
 
 	def install
 		bin.install "koi"
