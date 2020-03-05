@@ -2,6 +2,12 @@
 This tap manages [wcarhart's](https://github.com/wcarhart) tools that are installable via Homebrew.
 
 ## Available Formulae
+### Birdhouse
+Coming soon 😘
+
+### Chronicler
+Coming soon 😘
+
 ### Koi
 Repository: https://github.com/wcarhart/koi
 ```
@@ -18,6 +24,9 @@ Repository: https://github.com/wcarhart/thoth
 brew tap wcarhart/tools
 brew install thoth
 ```
+
+### Rocket
+Coming soon 😘
 
 ## Chiller
 Helpful utilities for Homebrew
