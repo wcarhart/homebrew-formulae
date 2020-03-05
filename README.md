@@ -18,6 +18,9 @@ brew install koi
 ### Lurker
 Coming soon 😘
 
+### Smoosh
+Coming soon 😘
+
 ### Thoth
 Repository: https://github.com/wcarhart/thoth
 ```
