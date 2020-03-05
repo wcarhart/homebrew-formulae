@@ -5,7 +5,7 @@ This tap manages [wcarhart's](https://github.com/wcarhart) tools that are instal
 ### Birdhouse
 Coming soon 😘
 
-### Chronicler
+### Chronicle
 Coming soon 😘
 
 ### Koi
