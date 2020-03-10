@@ -7,8 +7,10 @@ koidescription="Helpful Homebrew tools"
 
 function gensha {
 	__addarg "-h" "--help" "help" "optional" "" "Generate a SHA256 hash"
-	__addarg "-f" "--file" "filepath" "required" "" "The file for which to generate a hash"
+	__addarg "" "file" "positionalvalue" "required" "" "The file for which to generate a hash"
 	__parseargs "$@"
+
+	if [[ ! -f "$file" ]] ; then __errortext "gensha: err: no such file $file" ; return 1 ; fi
 
 	openssl dgst -sha256 "$file"
 }
