@@ -2,7 +2,16 @@
 This tap manages [wcarhart's](https://github.com/wcarhart) tools that are installable via Homebrew.
 
 ## Available Formulae
+### Aerogram
+Coming soon 😘
+
+### Beaver
+Coming soon 😘
+
 ### Birdhouse
+Coming soon 😘
+
+### Cheqit
 Coming soon 😘
 
 ### Chronicle
