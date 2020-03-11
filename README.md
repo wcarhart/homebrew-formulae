@@ -14,6 +14,13 @@ Coming soon 😘
 ### Cheqit
 Coming soon 😘
 
+### Chiller
+Repository: https://github.com/wcarhart/chiller
+```
+brew tap wcarhart/tools
+brew install chiller
+```
+
 ### Chronicle
 Coming soon 😘
 
@@ -39,12 +46,3 @@ brew install thoth
 
 ### Rocket
 Coming soon 😘
-
-## Chiller
-Helpful utilities for Homebrew
-
-`chiller gensha`<br>Generate a new SHA256 hash from a tarball for a new Homebrew release.
-
-`chiller gettar`<br>Get the tarball for a specific release of a GitHub repository.
-
-Why is it named [Chiller](https://en.wikipedia.org/wiki/Immersion_chiller)?
