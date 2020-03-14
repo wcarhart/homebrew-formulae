@@ -9,7 +9,11 @@ Coming soon 😘
 Coming soon 😘
 
 ### Birdhouse
-Coming soon 😘
+Repository: https://github.com/wcarhart/birdhouse
+```
+brew tap wcarhart/tools
+brew install birdhouse
+```
 
 ### Cheqit
 Coming soon 😘
