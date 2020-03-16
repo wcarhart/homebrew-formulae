@@ -3,8 +3,8 @@ require "formula"
 class Birdhouse < Formula
 	desc "Passive tweet watcher from the command line"
 	homepage "https://github.com/wcarhart/birdhouse"
-	url "https://github.com/wcarhart/birdhouse/archive/v3.tar.gz"
-	sha256 "bfb82d4faddf97e233b611ba77b494b2651125bad71572a115fc6c0b902a41d5"
+	url "https://github.com/wcarhart/birdhouse/archive/v4.tar.gz"
+	sha256 "c8049cba156b0f1f362b06f6f1ee354090df92eb1d49c265f63da38a842bc8d2"
 
 	depends_on "wcarhart/tools/koi"
 
