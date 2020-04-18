@@ -1,4 +1,4 @@
-# Homebrew Tools
+# Homebrew Tools 🍺
 This tap manages [wcarhart's](https://github.com/wcarhart) tools that are installable via Homebrew.
 
 ## Available Formulae
