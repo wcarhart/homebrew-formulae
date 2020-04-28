@@ -10,9 +10,9 @@ Coming soon 😘
 
 ### Birdhouse
 Repository: https://github.com/wcarhart/birdhouse
+Documentation: https://willcarhart.dev/docs/birdhouse
 ```
-brew tap wcarhart/tools
-brew install birdhouse
+brew install wcarhart/tools/birdhouse
 ```
 
 ### Cheqit
@@ -21,8 +21,7 @@ Coming soon 😘
 ### Chiller
 Repository: https://github.com/wcarhart/chiller
 ```
-brew tap wcarhart/tools
-brew install chiller
+brew install wcarhart/tools/chiller
 ```
 
 ### Chronicle
@@ -30,9 +29,16 @@ Coming soon 😘
 
 ### Koi
 Repository: https://github.com/wcarhart/koi
+Documentation: https://willcarhart.dev/docs/koi
 ```
-brew tap wcarhart/tools
-brew install koi
+brew install wcarhart/tools/koi
+```
+
+### Konphig
+Repository: https://github.com/wcarhart/konphig
+Documentation: https://willcarhart.dev/docs/konphig
+```
+brew install wcarhart/tools/kn
 ```
 
 ### Lurker
@@ -44,8 +50,7 @@ Coming soon 😘
 ### Thoth
 Repository: https://github.com/wcarhart/thoth
 ```
-brew tap wcarhart/tools
-brew install thoth
+brew install wcarhart/tools/thoth
 ```
 
 ### Rocket
