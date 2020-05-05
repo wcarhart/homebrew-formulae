@@ -3,8 +3,8 @@ require "formula"
 class Chiller < Formula
 	desc "Helpful GitHub repository and Homebrew tools"
 	homepage "https://github.com/wcarhart/chiller"
-	url "https://github.com/wcarhart/chiller/archive/v1.1.2.tar.gz"
-	sha256 "d1234d3445d7d248cdd3d3fb813a3f2ff193b9fc880153161a89e6e876d94e14"
+	url "https://github.com/wcarhart/chiller/archive/v1.1.4.tar.gz"
+	sha256 "bc4e9d35267667265eb4054f6dee69145a5297efddc6ee14c38b8fc2a8dc3a76"
 
 	depends_on "wcarhart/tools/koi"
 
