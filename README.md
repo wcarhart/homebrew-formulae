@@ -30,6 +30,14 @@ brew install wcarhart/tools/chiller
 ### Chronicle
 Coming soon 😘
 
+### Doku
+Repository: https://github.com/wcarhart/doku
+
+Documentation: _coming soon_
+```bash
+brew install wcarhart/tools/doku
+```
+
 ### Koi
 Repository: https://github.com/wcarhart/koi
 
