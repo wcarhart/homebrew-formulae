@@ -7,6 +7,8 @@ class Chiller < Formula
 	sha256 "082784d0153fd64bedf80901391e53f0d8b1181f9394886b14154f81a4e48ffb"
 
 	depends_on "wcarhart/tools/koi"
+	depends_on "jq"
+	depends_on "wget"
 
 	def install
 		bin.install "chiller"
