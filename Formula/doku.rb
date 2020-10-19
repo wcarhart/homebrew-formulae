@@ -10,5 +10,7 @@ class Doku < Formula
 
 	def install
 		bin.install "doku"
+		bin.install "src/solver.js"
+		bin.install "src/core.js"
 	end
 end
