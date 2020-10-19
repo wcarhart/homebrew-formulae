@@ -9,8 +9,10 @@ class Doku < Formula
 	depends_on "deno"
 
 	def install
-		bin.install "doku"
-		bin.install "src/solver.js"
-		bin.install "src/core.js"
+		libexec.install Dir["*"]
+		bin.write_exec_script (libexec/"doku")
+		# bin.install "doku"
+		# bin.install "src/solver.js"
+		# bin.install "src/core.js"
 	end
 end
