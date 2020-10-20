@@ -3,8 +3,8 @@ require "formula"
 class Doku < Formula
 	desc "Automated Sudoku solver"
 	homepage "https://github.com/wcarhart/doku"
-	url "https://github.com/wcarhart/doku/archive/1.0.2.tar.gz"
-	sha256 "1d2a9980ba96e95e44b967ee6251e6f42b7054665b7cb8a8482ebdbabbb401d1"
+	url "https://github.com/wcarhart/doku/archive/1.0.3.tar.gz"
+	sha256 "d8b9ea1e47f12949687a9bfb5f04796dc55c48f8236471ec7c7faf27858584c8"
 
 	depends_on "deno"
 
