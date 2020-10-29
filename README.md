@@ -63,7 +63,12 @@ brew install wcarhart/tools/lurker
 ```
 
 ### Smoosh
-Coming soon 😘
+Repository: https://github.com/wcarhart/smoosh
+
+Documentation: _coming soon_
+```bash
+brew install wcarhart/tools/smoosh
+```
 
 ### Thoth
 Repository: https://github.com/wcarhart/thoth
