@@ -1,6 +1,8 @@
 require "formula"
 
 class Smoosh < Formula
+	include Language::Python::Virtualenv
+
 	desc "Summarize any text article"
 	homepage "https://github.com/wcarhart/smoosh"
 	url "https://github.com/wcarhart/smoosh/archive/2.1.0.tar.gz"
