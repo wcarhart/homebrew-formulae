@@ -3,8 +3,8 @@ require "formula"
 class Lurker < Formula
 	desc "Hacker News terminal client"
 	homepage "https://github.com/wcarhart/lurker"
-	url "https://github.com/wcarhart/lurker/archive/v1.6.1.tar.gz"
-	sha256 "9fa6468f67d14a6e93642a87b058ef17b120ce5d78d82c8e64bf178299843fec"
+	url "https://github.com/wcarhart/lurker/archive/1.7.0.tar.gz"
+	sha256 "ebe732b7449331fdc4ffb8b3a5bb5b66a8059e0b60a52ac6bd256ffc0d61574c"
 
 	depends_on "wcarhart/tools/koi"
 	depends_on "jq"
