@@ -5,8 +5,8 @@ class Smoosh < Formula
 
 	desc "Summarize any text article"
 	homepage "https://github.com/wcarhart/smoosh"
-	url "https://github.com/wcarhart/smoosh/archive/2.1.0.tar.gz"
-	sha256 "a6cfca77de56f6239b2958fec312ffb378b43bd67888092f068045cf74ac09eb"
+	url "https://github.com/wcarhart/smoosh/archive/2.2.0.tar.gz"
+	sha256 "016dc7e41cffaa47c107d7503b510b94349697c68d4c2169e9bc1c8cf97ff722"
 
 	depends_on "python@3.9"
 
